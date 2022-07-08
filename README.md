@@ -7,7 +7,7 @@ Para executar é necessário primeiro no código c acrescentar estes dois pedaç
 O Function Outliner pode executar em default mas também tem a capacidade de executar com opções de execução (não ainda todas implementadas) estas necessitam de que os nós lidos pelo outliner tenham nos dados pelo menos um objeto com o nome outlinerName outlinerMode. As opções são de:
 
 
-	Atribuir um nome no caso em que outlinerName exista e contenha um nome aceite (este é substitui se a função outliner() tem o atributo para o nome)
-	O outlinerMode contem “-a” em vez de o processo de transferência de nós ser realizado é efetuada uma ejeção de código diretamente.
-	O outlinerMode contem “-b” (opção ainda não introduzida) transforma todos os usos de variáveis em uso de apontadores e transportar todas as declarações de variáveis para o exterior da função, poderá permitir o uso da function outliner em casos previamente seria incapaz.
+- Atribuir um nome no caso em que outlinerName exista e contenha um nome aceite (este é substitui se a função outliner() tem o atributo para o nome)
+- O outlinerMode contem “-a” em vez de o processo de transferência de nós ser realizado é efetuada uma ejeção de código diretamente.
+- O outlinerMode contem “-b” (opção ainda não introduzida) transforma todos os usos de variáveis em uso de apontadores e transportar todas as declarações de variáveis para o exterior da função, poderá permitir o uso da function outliner em casos previamente seria incapaz.
 
